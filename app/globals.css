@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+html, body { background: #6ec6ff; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+body { font-family: "Trebuchet MS", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #3d2210; }
+img { image-rendering: auto; user-select: none; -webkit-user-drag: none; }
+button { cursor: pointer; font-family: inherit; }
+.wood { background: linear-gradient(#a8692f, #7a4620); border: 3px solid #3d2210; border-radius: 12px; box-shadow: inset 0 2px 0 #d9993f, 0 2px 0 #2a170b; color: #fff; }
+.cream { background: #f8e7bb; border: 3px solid #8a5524; border-radius: 12px; box-shadow: inset 0 0 0 2px #fff3cf; }
+.woodbtn { background: url(/s/bar.png) center / 100% 100% no-repeat; color: #fff8e1; font-weight: 800; text-shadow: 0 2px 0 #3d2210, 0 0 3px #3d2210; }
+.greenbtn { background: linear-gradient(#5cc83a, #2f8f1f); border: 3px solid #1d5a14; border-radius: 10px; color: #fff; font-weight: 800; text-shadow: 0 2px 0 #1d5a14; }
+.greenbtn:disabled { filter: grayscale(1); opacity: .6; }
+.pxt { text-shadow: 0 2px 0 rgba(0, 0, 0, .55); }
